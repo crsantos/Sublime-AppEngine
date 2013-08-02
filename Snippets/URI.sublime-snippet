@@ -1,0 +1,2 @@
+<?xml version="1.0"?>
+<snippet><![CDATA[ self.request.uri ]]><name>URI</name><tabTrigger>uri</tabTrigger><scope>source.python.django</scope></snippet>

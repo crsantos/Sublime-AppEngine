@@ -1,0 +1,3 @@
+<?xml version="1.0"?>
+<snippet><![CDATA[ ${1:field} = db.UserProperty()
+ ]]><name>UserProperty</name><tabTrigger>up</tabTrigger><scope>source.python.django</scope></snippet>

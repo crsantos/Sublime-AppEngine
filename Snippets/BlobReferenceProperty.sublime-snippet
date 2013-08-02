@@ -1,0 +1,3 @@
+<?xml version="1.0"?>
+<snippet><![CDATA[ ${1:field} = db.blobstore.BlobReferenceProperty(verbose_name=${2:None})
+ ]]><name>BlobReferenceProperty</name><tabTrigger>blrp</tabTrigger><scope>source.python.django</scope></snippet>

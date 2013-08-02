@@ -1,0 +1,3 @@
+<?xml version="1.0"?>
+<snippet><![CDATA[ self.response.headers['${1:type}'] = '${2:value}'
+ ]]><name>Headers</name><tabTrigger>headers</tabTrigger><scope>source.python.django</scope></snippet>

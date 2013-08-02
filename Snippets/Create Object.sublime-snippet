@@ -1,0 +1,4 @@
+<?xml version="1.0"?>
+<snippet><![CDATA[ ${1:obj} = ${2:ModelName	}(
+	${3:var1}=${3:var1_value},
+) ]]><name>Create Object</name><tabTrigger>obj</tabTrigger><scope>source.python.django</scope></snippet>

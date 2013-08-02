@@ -1,0 +1,2 @@
+<?xml version="1.0"?>
+<snippet><![CDATA[ .put() ]]><name>put</name><tabTrigger>.p</tabTrigger><scope>source.python.django</scope></snippet>

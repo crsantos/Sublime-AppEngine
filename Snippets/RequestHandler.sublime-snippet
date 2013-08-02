@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<snippet><![CDATA[ class ${1:HandlerName}(webapp.RequestHandler):
+	'''${1} documentation'''
+	
+	# GET
+	def get(self):
+		pass
+	
+	# POST
+	def post(self):
+		pass
+	
+ ]]><name>RequestHandler</name><tabTrigger>reqh</tabTrigger><scope>source.python.django</scope></snippet>

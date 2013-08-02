@@ -1,0 +1,2 @@
+<?xml version="1.0"?>
+<snippet><![CDATA[ .fetch(${1:NUMBER}) ]]><name>fetch</name><tabTrigger>.f</tabTrigger><scope>source.python.django</scope></snippet>

@@ -1,0 +1,2 @@
+<?xml version="1.0"?>
+<snippet><![CDATA[ ${1:field} = db.IntegerProperty() ]]><name>IntegerProperty</name><tabTrigger>ip</tabTrigger><scope>source.python.django</scope></snippet>

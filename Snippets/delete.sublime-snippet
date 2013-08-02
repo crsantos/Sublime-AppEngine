@@ -1,0 +1,2 @@
+<?xml version="1.0"?>
+<snippet><![CDATA[ .delete() ]]><name>delete</name><tabTrigger>.d</tabTrigger><scope>source.python.django</scope></snippet>

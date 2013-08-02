@@ -1,0 +1,2 @@
+<?xml version="1.0"?>
+<snippet><![CDATA[ ${1:results} = db.GqlQuery("SELECT * FROM ${2:MODEL} WHERE ${3:CONDITION}", u"${4:TEXT}") ]]><name>GQL</name><tabTrigger>gq</tabTrigger><scope>source.python.django</scope></snippet>

@@ -1,0 +1,2 @@
+<?xml version="1.0"?>
+<snippet><![CDATA[ ${1:field} = db.TextProperty(${2:required=True}) ]]><name>TextProperty</name><tabTrigger>tp</tabTrigger><scope>source.python.django</scope></snippet>

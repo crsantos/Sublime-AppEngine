@@ -1,0 +1,6 @@
+<?xml version="1.0"?>
+<snippet><![CDATA[ class ${1:FormName}(djangoforms.ModelForm):
+	class Meta:
+		model = ${2:MODEL}
+		exclude=['${3:FIELD}']
+ ]]><name>DjangoForm</name><tabTrigger>dform</tabTrigger><scope>source.python.django</scope></snippet>

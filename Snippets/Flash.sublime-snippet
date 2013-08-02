@@ -1,0 +1,3 @@
+<?xml version="1.0"?>
+<snippet><![CDATA[ flash = Flash()
+flash.msg = "${1: MSG}" ]]><name>Flash</name><tabTrigger>flash</tabTrigger><scope>source.python.django</scope></snippet>

@@ -1,0 +1,3 @@
+<?xml version="1.0"?>
+<snippet><![CDATA[ users.create_login_url(self.request.uri)
+ ]]><name>LoginURL</name><tabTrigger>loginurl</tabTrigger><scope>source.python.django</scope></snippet>

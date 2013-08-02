@@ -1,0 +1,2 @@
+<?xml version="1.0"?>
+<snippet><![CDATA[ ${1:field} = db.FloatProperty()	 ]]><name>FloatProperty</name><tabTrigger>fp</tabTrigger><scope>source.python.django</scope></snippet>
