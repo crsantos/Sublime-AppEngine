@@ -1,2 +1,7 @@
 <?xml version="1.0"?>
-<snippet><![CDATA[ ${1:field} = db.GeoPtProperty() ]]><name>GeoPtProperty</name><tabTrigger>geop</tabTrigger><scope>source.python.django</scope></snippet>
+<snippet>
+  <content><![CDATA[ ${1:field} = db.GeoPtProperty() ]]></content>
+  <name>GeoPtProperty</name>
+  <tabTrigger>geop</tabTrigger>
+  <scope>source.python</scope>
+</snippet>

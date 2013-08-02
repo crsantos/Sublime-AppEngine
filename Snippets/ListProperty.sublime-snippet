@@ -1,2 +1,7 @@
 <?xml version="1.0"?>
-<snippet><![CDATA[ ${1:field} = db.ListProperty(${2:item_type}, verbose_name=${3:None}, default=${4:None}) ]]><name>ListProperty</name><tabTrigger>lp</tabTrigger><scope>source.python.django</scope></snippet>
+<snippet>
+  <content><![CDATA[ ${1:field} = db.ListProperty(${2:item_type}, verbose_name=${3:None}, default=${4:None}) ]]></content>
+  <name>ListProperty</name>
+  <tabTrigger>lp</tabTrigger>
+  <scope>source.python</scope>
+</snippet>

@@ -1,2 +1,7 @@
 <?xml version="1.0"?>
-<snippet><![CDATA[ .all() ]]><name>all</name><tabTrigger>.a</tabTrigger><scope>source.python.django</scope></snippet>
+<snippet>
+  <content><![CDATA[ .all() ]]></content>
+  <name>all</name>
+  <tabTrigger>.a</tabTrigger>
+  <scope>source.python</scope>
+</snippet>

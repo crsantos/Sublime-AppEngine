@@ -1,2 +1,7 @@
 <?xml version="1.0"?>
-<snippet><![CDATA[ ${1:field} = db.IMProperty() ]]><name>IMProperty</name><tabTrigger>imp</tabTrigger><scope>source.python.django</scope></snippet>
+<snippet>
+  <content><![CDATA[ ${1:field} = db.IMProperty() ]]></content>
+  <name>IMProperty</name>
+  <tabTrigger>imp</tabTrigger>
+  <scope>source.python</scope>
+</snippet>

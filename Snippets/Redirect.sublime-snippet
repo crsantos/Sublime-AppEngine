@@ -1,3 +1,8 @@
 <?xml version="1.0"?>
-<snippet><![CDATA[ self.redirect(${1:PATH})
- ]]><name>Redirect</name><tabTrigger>red</tabTrigger><scope>source.python.django</scope></snippet>
+<snippet>
+  <content><![CDATA[ self.redirect(${1:PATH})
+ ]]></content>
+  <name>Redirect</name>
+  <tabTrigger>red</tabTrigger>
+  <scope>source.python</scope>
+</snippet>

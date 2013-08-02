@@ -1,2 +1,7 @@
 <?xml version="1.0"?>
-<snippet><![CDATA[ self.response.out.write(${1}) ]]><name>write</name><tabTrigger>sout</tabTrigger><scope>source.python.django</scope></snippet>
+<snippet>
+  <content><![CDATA[ self.response.out.write(${1}) ]]></content>
+  <name>write</name>
+  <tabTrigger>sout</tabTrigger>
+  <scope>source.python</scope>
+</snippet>

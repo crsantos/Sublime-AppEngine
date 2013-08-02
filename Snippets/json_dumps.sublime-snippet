@@ -1,2 +1,7 @@
 <?xml version="1.0"?>
-<snippet><![CDATA[ self.response.out.write(json.dumps(dict(status=0,))) ]]><name>json.dumps</name><tabTrigger>jdump</tabTrigger><scope>source.python.django</scope></snippet>
+<snippet>
+  <content><![CDATA[ self.response.out.write(json.dumps(dict(status=0,))) ]]></content>
+  <name>json.dumps</name>
+  <tabTrigger>jdump</tabTrigger>
+  <scope>source.python</scope>
+</snippet>

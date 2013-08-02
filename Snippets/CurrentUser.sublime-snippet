@@ -1,3 +1,8 @@
 <?xml version="1.0"?>
-<snippet><![CDATA[ users.get_current_user()
- ]]><name>CurrentUser</name><tabTrigger>user</tabTrigger><scope>source.python.django</scope></snippet>
+<snippet>
+  <content><![CDATA[ users.get_current_user()
+ ]]></content>
+  <name>CurrentUser</name>
+  <tabTrigger>user</tabTrigger>
+  <scope>source.python</scope>
+</snippet>

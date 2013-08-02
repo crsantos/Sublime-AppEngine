@@ -1,7 +1,12 @@
 <?xml version="1.0"?>
-<snippet><![CDATA[ # ${1} model
+<snippet>
+  <content><![CDATA[ # ${1} model
 class ${1:ModelName}(db.Model):
 	''' ${1} Documentation'''
 	
 	
- ]]><name>Model</name><tabTrigger>model</tabTrigger><scope>source.python.django</scope></snippet>
+ ]]></content>
+  <name>Model</name>
+  <tabTrigger>model</tabTrigger>
+  <scope>source.python</scope>
+</snippet>

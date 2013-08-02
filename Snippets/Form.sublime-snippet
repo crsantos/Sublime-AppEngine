@@ -1,4 +1,9 @@
 <?xml version="1.0"?>
-<snippet><![CDATA[ class ${1:FormName}(forms.Form):
+<snippet>
+  <content><![CDATA[ class ${1:FormName}(forms.Form):
 	${2:field} = forms.CharField()
- ]]><name>Form</name><tabTrigger>form</tabTrigger><scope>source.python.django</scope></snippet>
+ ]]></content>
+  <name>Form</name>
+  <tabTrigger>form</tabTrigger>
+  <scope>source.python</scope>
+</snippet>

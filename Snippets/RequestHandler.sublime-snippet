@@ -1,5 +1,6 @@
 <?xml version="1.0"?>
-<snippet><![CDATA[ class ${1:HandlerName}(webapp.RequestHandler):
+<snippet>
+  <content><![CDATA[ class ${1:HandlerName}(webapp.RequestHandler):
 	'''${1} documentation'''
 	
 	# GET
@@ -10,4 +11,8 @@
 	def post(self):
 		pass
 	
- ]]><name>RequestHandler</name><tabTrigger>reqh</tabTrigger><scope>source.python.django</scope></snippet>
+ ]]></content>
+  <name>RequestHandler</name>
+  <tabTrigger>reqh</tabTrigger>
+  <scope>source.python</scope>
+</snippet>

@@ -1,2 +1,7 @@
 <?xml version="1.0"?>
-<snippet><![CDATA[ ${1:field} = ByteStringProperty(verbose_name=${2:None}) ]]><name>ByteStringProperty</name><tabTrigger>bsp</tabTrigger><scope>source.python.django</scope></snippet>
+<snippet>
+  <content><![CDATA[ ${1:field} = ByteStringProperty(verbose_name=${2:None}) ]]></content>
+  <name>ByteStringProperty</name>
+  <tabTrigger>bsp</tabTrigger>
+  <scope>source.python</scope>
+</snippet>

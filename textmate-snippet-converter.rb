@@ -20,7 +20,9 @@ Dir.foreach(directory) do |item|
   # generate XML
   builder = Nokogiri::XML::Builder.new do |xml|
     xml.snippet {
-        xml.cdata " #{result['content']} "
+        xml.content{
+          xml.cdata " #{result['content']} "
+        }
         xml.name result['name']
         xml.tabTrigger result['tabTrigger']
         xml.scope result['scope']

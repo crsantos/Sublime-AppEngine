@@ -1,6 +1,11 @@
 <?xml version="1.0"?>
-<snippet><![CDATA[ self.response.out.write(
+<snippet>
+  <content><![CDATA[ self.response.out.write(
 	template.render('${1:TEMPLATEPATH}.html',{
 		'${2:TEMPLATEVAR}': ${3:VAR},
 	})
-) ]]><name>TemplateRender</name><tabTrigger>render</tabTrigger><scope>source.python.django</scope></snippet>
+) ]]></content>
+  <name>TemplateRender</name>
+  <tabTrigger>render</tabTrigger>
+  <scope>source.python</scope>
+</snippet>

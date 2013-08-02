@@ -1,2 +1,7 @@
 <?xml version="1.0"?>
-<snippet><![CDATA[ ${1:field} = db.StringListProperty(verbose_name=${2:None}, default=${2:None}) ]]><name>StringListProperty</name><tabTrigger>slp</tabTrigger><scope>source.python.django</scope></snippet>
+<snippet>
+  <content><![CDATA[ ${1:field} = db.StringListProperty(verbose_name=${2:None}, default=${2:None}) ]]></content>
+  <name>StringListProperty</name>
+  <tabTrigger>slp</tabTrigger>
+  <scope>source.python</scope>
+</snippet>

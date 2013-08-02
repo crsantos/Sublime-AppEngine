@@ -1,2 +1,7 @@
 <?xml version="1.0"?>
-<snippet><![CDATA[ ${1:email}=db.EmailProperty() ]]><name>EmailProperty</name><tabTrigger>ep</tabTrigger><scope>source.python.django</scope></snippet>
+<snippet>
+  <content><![CDATA[ ${1:email}=db.EmailProperty() ]]></content>
+  <name>EmailProperty</name>
+  <tabTrigger>ep</tabTrigger>
+  <scope>source.python</scope>
+</snippet>

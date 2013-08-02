@@ -1,3 +1,8 @@
 <?xml version="1.0"?>
-<snippet><![CDATA[ ${1:field} = db.PhoneNumberProperty()
- ]]><name>PhoneNumberProperty</name><tabTrigger>pnp</tabTrigger><scope>source.python.django</scope></snippet>
+<snippet>
+  <content><![CDATA[ ${1:field} = db.PhoneNumberProperty()
+ ]]></content>
+  <name>PhoneNumberProperty</name>
+  <tabTrigger>pnp</tabTrigger>
+  <scope>source.python</scope>
+</snippet>

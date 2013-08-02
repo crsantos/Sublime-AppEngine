@@ -1,3 +1,8 @@
 <?xml version="1.0"?>
-<snippet><![CDATA[ ${1:field} = db.StringProperty(${2:default=None})
- ]]><name>StringProperty</name><tabTrigger>sp</tabTrigger><scope>source.python.django</scope></snippet>
+<snippet>
+  <content><![CDATA[ ${1:field} = db.StringProperty(${2:default=None})
+ ]]></content>
+  <name>StringProperty</name>
+  <tabTrigger>sp</tabTrigger>
+  <scope>source.python</scope>
+</snippet>

@@ -1,4 +1,9 @@
 <?xml version="1.0"?>
-<snippet><![CDATA[ class ${1:ModelName}(polymodel.PolyModel):
+<snippet>
+  <content><![CDATA[ class ${1:ModelName}(polymodel.PolyModel):
 	'''${1} Documentation'''
-	 ]]><name>PolyModel</name><tabTrigger>poly</tabTrigger><scope>source.python.django</scope></snippet>
+	 ]]></content>
+  <name>PolyModel</name>
+  <tabTrigger>poly</tabTrigger>
+  <scope>source.python</scope>
+</snippet>

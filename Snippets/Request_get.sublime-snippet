@@ -1,2 +1,7 @@
 <?xml version="1.0"?>
-<snippet><![CDATA[ self.request.get('${1:VAR}') ]]><name>Request.get</name><tabTrigger>rget</tabTrigger><scope>source.python.django</scope></snippet>
+<snippet>
+  <content><![CDATA[ self.request.get('${1:VAR}') ]]></content>
+  <name>Request.get</name>
+  <tabTrigger>rget</tabTrigger>
+  <scope>source.python</scope>
+</snippet>

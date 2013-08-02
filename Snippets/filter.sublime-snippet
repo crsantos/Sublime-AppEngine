@@ -1,2 +1,7 @@
 <?xml version="1.0"?>
-<snippet><![CDATA[ .filter('${1:CONDITION}',${2:VALUE}) ]]><name>filter</name><tabTrigger>.f</tabTrigger><scope>source.python.django</scope></snippet>
+<snippet>
+  <content><![CDATA[ .filter('${1:CONDITION}',${2:VALUE}) ]]></content>
+  <name>filter</name>
+  <tabTrigger>.f</tabTrigger>
+  <scope>source.python</scope>
+</snippet>

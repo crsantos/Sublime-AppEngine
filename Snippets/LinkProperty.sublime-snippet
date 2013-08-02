@@ -1,2 +1,7 @@
 <?xml version="1.0"?>
-<snippet><![CDATA[ ${1:field} = db.LinkProperty() ]]><name>LinkProperty</name><tabTrigger>lnp</tabTrigger><scope>source.python.django</scope></snippet>
+<snippet>
+  <content><![CDATA[ ${1:field} = db.LinkProperty() ]]></content>
+  <name>LinkProperty</name>
+  <tabTrigger>lnp</tabTrigger>
+  <scope>source.python</scope>
+</snippet>

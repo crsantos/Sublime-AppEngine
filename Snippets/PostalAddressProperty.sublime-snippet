@@ -1,2 +1,7 @@
 <?xml version="1.0"?>
-<snippet><![CDATA[ ${1:field} = db.PostalAddressProperty() ]]><name>PostalAddressProperty</name><tabTrigger>pap</tabTrigger><scope>source.python.django</scope></snippet>
+<snippet>
+  <content><![CDATA[ ${1:field} = db.PostalAddressProperty() ]]></content>
+  <name>PostalAddressProperty</name>
+  <tabTrigger>pap</tabTrigger>
+  <scope>source.python</scope>
+</snippet>

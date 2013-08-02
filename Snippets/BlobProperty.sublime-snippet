@@ -1,2 +1,7 @@
 <?xml version="1.0"?>
-<snippet><![CDATA[ ${1:field} = BlobProperty() ]]><name>BlobProperty</name><tabTrigger>blp</tabTrigger><scope>source.python.django</scope></snippet>
+<snippet>
+  <content><![CDATA[ ${1:field} = BlobProperty() ]]></content>
+  <name>BlobProperty</name>
+  <tabTrigger>blp</tabTrigger>
+  <scope>source.python</scope>
+</snippet>

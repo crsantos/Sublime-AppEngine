@@ -1,2 +1,7 @@
 <?xml version="1.0"?>
-<snippet><![CDATA[ .order("-${1:FIELD}") ]]><name>order</name><tabTrigger>.o</tabTrigger><scope>source.python.django</scope></snippet>
+<snippet>
+  <content><![CDATA[ .order("-${1:FIELD}") ]]></content>
+  <name>order</name>
+  <tabTrigger>.o</tabTrigger>
+  <scope>source.python</scope>
+</snippet>

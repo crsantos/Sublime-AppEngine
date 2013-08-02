@@ -1,2 +1,7 @@
 <?xml version="1.0"?>
-<snippet><![CDATA[ ${1:field} = db.DateTimeProperty(verbose_name=${2:None}, auto_now=${3:False}, auto_now_add=${4:False}) ]]><name>DateTimeProperty</name><tabTrigger>dttp</tabTrigger><scope>source.python.django</scope></snippet>
+<snippet>
+  <content><![CDATA[ ${1:field} = db.DateTimeProperty(verbose_name=${2:None}, auto_now=${3:False}, auto_now_add=${4:False}) ]]></content>
+  <name>DateTimeProperty</name>
+  <tabTrigger>dttp</tabTrigger>
+  <scope>source.python</scope>
+</snippet>

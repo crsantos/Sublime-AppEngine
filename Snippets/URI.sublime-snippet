@@ -1,2 +1,7 @@
 <?xml version="1.0"?>
-<snippet><![CDATA[ self.request.uri ]]><name>URI</name><tabTrigger>uri</tabTrigger><scope>source.python.django</scope></snippet>
+<snippet>
+  <content><![CDATA[ self.request.uri ]]></content>
+  <name>URI</name>
+  <tabTrigger>uri</tabTrigger>
+  <scope>source.python</scope>
+</snippet>
